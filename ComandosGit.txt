@@ -1,5 +1,6 @@
 Comandos para poder subir un tag
 
+PS C:\xampp\htdocs\Curso Angular\bases> git add .
 PS C:\xampp\htdocs\Curso Angular\bases> git tag -a v0.1.0 -m "Fin sección 4" 
 
 PS C:\xampp\htdocs\Curso Angular\bases> git tag
