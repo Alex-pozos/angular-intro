@@ -1,4 +1,4 @@
-Comandos para poder subir un tag
+<--Comandos para poder subir un tag-->
 
 PS C:\xampp\htdocs\Curso Angular\bases> git add .
 PS C:\xampp\htdocs\Curso Angular\bases> git tag -a v0.1.0 -m "Fin sección 4" 
@@ -15,7 +15,7 @@ To https://github.com/Alex-pozos/angular-intro.git
  * [new tag]         v0.1.0 -> v0.1.0   
 
 
-Comandos para poder subir los cambios al repositorio
+<--Comandos para poder subir los cambios al repositorio-->
 
 PS C:\xampp\htdocs\Curso Angular\bases> git commit -m  "comandosGit" 
 [master f311fee] comandosGit
@@ -31,3 +31,22 @@ Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/Alex-pozos/angular-intro.git
    57266a3..f311fee  master -> master
+
+
+<--El siguiente comando es para poder sacar nuetro sitio a produccion, debe de construir en nuestro arbol de proyectos la
+   carpeta dis.->
+
+    ng build --configuration production
+✔ Browser application bundle generation complete.
+✔ Copying assets complete.
+✔ Index html generation complete.
+
+Initial Chunk Files           | Names         |  Raw Size | Estimated Transfer Size
+main.ab800219009f5c9e.js      | main          | 145.43 kB |                41.16 kB
+polyfills.a4bbe5954e366519.js | polyfills     |  33.07 kB |                10.69 kB
+runtime.00a305ca71064f94.js   | runtime       | 888 bytes |               507 bytes
+styles.dc3e7ac02ccd86e8.css   | styles        | 464 bytes |               218 bytes
+
+                              | Initial Total | 179.82 kB |                52.56 kB
+
+Build at: 2023-01-18T19:49:05.392Z - Hash: fe9ce57a0aded545 - Time: 44963ms
